@@ -1,0 +1,2 @@
+2025-08-07 13:12:47,520 - INFO - Starting layoutxlm page-wise feature extraction
+2025-08-07 13:13:38,492 - INFO - layoutxlm page-wise feature extraction completed successfully

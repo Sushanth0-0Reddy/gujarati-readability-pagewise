@@ -1,0 +1,2 @@
+2025-08-06 18:13:32,870 - INFO - Starting efficientnet page-wise feature extraction
+2025-08-06 18:14:17,380 - INFO - efficientnet page-wise feature extraction completed successfully

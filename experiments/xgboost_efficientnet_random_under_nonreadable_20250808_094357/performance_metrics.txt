@@ -1,0 +1,33 @@
+PAGE-WISE READABILITY CLASSIFICATION - XGBoost with Undersampling
+======================================================================
+
+Backbone Model: efficientnet
+Sampling Strategy: random
+Training Time: 0:00:58.905847
+Best CV F1 Score: 0.2600
+
+BEST PARAMETERS:
+--------------------
+colsample_bytree: 0.8
+learning_rate: 0.1
+max_depth: 3
+n_estimators: 200
+reg_alpha: 0
+reg_lambda: 1
+subsample: 0.8
+
+TRAINING SET PERFORMANCE (Original Data):
+----------------------------------------
+ACCURACY: 0.8845
+PRECISION: 0.7343
+RECALL: 1.0000
+F1: 0.8468
+ROC_AUC: 0.9906
+
+TEST SET PERFORMANCE:
+--------------------
+ACCURACY: 0.7049
+PRECISION: 0.5490
+RECALL: 0.6829
+F1: 0.6087
+ROC_AUC: 0.7820

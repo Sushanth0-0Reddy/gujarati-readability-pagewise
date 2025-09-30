@@ -1,0 +1,33 @@
+{
+  "model_type": "Efficientnet + XGBoost (Page-wise)",
+  "classification_type": "page_wise",
+  "feature_dimension": 1280,
+  "training_time_seconds": 43.937329,
+  "best_params": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.1,
+    "max_depth": 3,
+    "n_estimators": 100,
+    "reg_alpha": 0,
+    "reg_lambda": 1,
+    "subsample": 1.0
+  },
+  "best_cv_score": 0.2709885742672628,
+  "train_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0
+  },
+  "test_metrics": {
+    "accuracy": 0.7459016393442623,
+    "precision": 0.7272727272727273,
+    "recall": 0.3902439024390244,
+    "f1": 0.5079365079365079,
+    "roc_auc": 0.7967479674796748
+  },
+  "total_combinations_tested": 4,
+  "cv_folds": 3,
+  "extraction_date": "2025-08-06T18:14:17.379165"
+}

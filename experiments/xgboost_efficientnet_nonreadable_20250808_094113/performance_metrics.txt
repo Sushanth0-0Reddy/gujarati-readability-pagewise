@@ -1,0 +1,37 @@
+📈 PAGE-WISE READABILITY CLASSIFICATION RESULTS
+======================================================================
+
+Training Summary:
+- Model Type: Efficientnet + XGBoost (Page-wise)
+- Classification Type: page_wise
+- Training Time: 95.9 seconds
+- Feature Dimension: 1,280 features
+- Training Samples: 476 pages
+- Test Samples: 122 pages
+- Hyperparameter Combinations Tested: 16
+- Cross-validation Folds: 3
+- Best CV F1 Score: 0.3267
+- Feature Extraction Date: 2025-08-06T18:14:17.379165
+
+Best Hyperparameters:
+- colsample_bytree: 0.8
+- learning_rate: 0.2
+- max_depth: 3
+- n_estimators: 200
+- reg_alpha: 0
+- reg_lambda: 1
+- subsample: 0.8
+
+Performance Metrics:
+==============================
+
+| Metric      | Train Set | Test Set  | Difference |
+|-------------|-----------|-----------|------------|
+| Accuracy    |   100.00% |    76.23% |   -23.77% |
+| Precision   |   100.00% |    73.08% |   -26.92% |
+| Recall      |   100.00% |    46.34% |   -53.66% |
+| F1          |   100.00% |    56.72% |   -43.28% |
+| Roc Auc     |   100.00% |    78.98% |   -21.02% |
+
+
+Generated: 2025-08-08 09:42:49

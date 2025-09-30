@@ -1,0 +1,33 @@
+{
+  "model_type": "Dinov2 + XGBoost (Page-wise)",
+  "classification_type": "page_wise",
+  "feature_dimension": 384,
+  "training_time_seconds": 17.123664,
+  "best_params": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.1,
+    "max_depth": 6,
+    "n_estimators": 200,
+    "reg_alpha": 0,
+    "reg_lambda": 1,
+    "subsample": 1.0
+  },
+  "best_cv_score": 0.3044603820723224,
+  "train_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0
+  },
+  "test_metrics": {
+    "accuracy": 0.7890625,
+    "precision": 0.78125,
+    "recall": 0.5555555555555556,
+    "f1": 0.6493506493506493,
+    "roc_auc": 0.8353413654618475
+  },
+  "total_combinations_tested": 4,
+  "cv_folds": 3,
+  "extraction_date": "2025-08-19T11:27:26.072541"
+}

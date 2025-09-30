@@ -1,0 +1,12 @@
+2025-08-19 04:31:44,238 - INFO - Starting dinov3 page-wise feature extraction
+2025-08-19 04:31:45,318 - WARNING - Ignored kwargs: {'num_classes': 0}
+2025-08-19 04:31:45,324 - INFO - using base=100.0 for rope new
+2025-08-19 04:31:45,324 - INFO - using min_period=None for rope new
+2025-08-19 04:31:45,324 - INFO - using max_period=None for rope new
+2025-08-19 04:31:45,324 - INFO - using normalize_coords=separate for rope new
+2025-08-19 04:31:45,324 - INFO - using shift_coords=None for rope new
+2025-08-19 04:31:45,324 - INFO - using rescale_coords=None for rope new
+2025-08-19 04:31:45,324 - INFO - using jitter_coords=None for rope new
+2025-08-19 04:31:45,324 - INFO - using dtype=bf16 for rope new
+2025-08-19 04:31:45,328 - INFO - using mlp layer as FFN
+2025-08-19 04:32:16,299 - INFO - dinov3 page-wise feature extraction completed successfully

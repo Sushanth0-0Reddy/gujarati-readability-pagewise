@@ -1,0 +1,2 @@
+2025-08-19 11:26:57,351 - INFO - Starting dinov2 page-wise feature extraction
+2025-08-19 11:27:26,073 - INFO - dinov2 page-wise feature extraction completed successfully

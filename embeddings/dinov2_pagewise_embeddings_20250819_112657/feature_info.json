@@ -1,0 +1,34 @@
+{
+  "classification_type": "page_wise",
+  "backbone_name": "dinov2",
+  "feature_dimension": 384,
+  "input_size": [
+    224,
+    224
+  ],
+  "train_samples": 501,
+  "test_samples": 128,
+  "extraction_date": "2025-08-19T11:27:26.072541",
+  "device": "cuda",
+  "train_feature_shape": [
+    501,
+    384
+  ],
+  "test_feature_shape": [
+    128,
+    384
+  ],
+  "train_class_distribution": {
+    "readable": 336,
+    "non_readable": 165
+  },
+  "test_class_distribution": {
+    "readable": 83,
+    "non_readable": 45
+  },
+  "mappings_saved": true,
+  "train_paths_file": "train_paths.json",
+  "test_paths_file": "test_paths.json",
+  "train_names_file": "train_names.json",
+  "test_names_file": "test_names.json"
+}

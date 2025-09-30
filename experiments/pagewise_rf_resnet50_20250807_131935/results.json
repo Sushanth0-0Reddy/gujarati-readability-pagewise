@@ -1,0 +1,61 @@
+{
+  "model_type": "RandomForest",
+  "backbone_name": "resnet50",
+  "feature_dimension": 2048,
+  "training_date": "2025-08-07T13:19:50.710243",
+  "train_samples": 480,
+  "test_samples": 122,
+  "best_hyperparameters": {
+    "max_depth": 20,
+    "min_samples_leaf": 1,
+    "min_samples_split": 5,
+    "n_estimators": 200
+  },
+  "cv_folds": 3,
+  "hyperparameter_combinations": 16,
+  "class_weight": "balanced",
+  "results": {
+    "train_metrics": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0
+    },
+    "test_metrics": {
+      "accuracy": 0.7622950819672131,
+      "precision": 0.75,
+      "recall": 0.9629629629629629,
+      "f1_score": 0.8432432432432433,
+      "roc_auc": 0.8280638361939175
+    },
+    "confusion_matrix": {
+      "train": [
+        [
+          153,
+          0
+        ],
+        [
+          0,
+          327
+        ]
+      ],
+      "test": [
+        [
+          15,
+          26
+        ],
+        [
+          3,
+          78
+        ]
+      ]
+    },
+    "feature_importance_stats": {
+      "mean": 0.00048828125,
+      "std": 0.0005375873779086032,
+      "max": 0.009092139256112918,
+      "min": 0.0
+    }
+  }
+}

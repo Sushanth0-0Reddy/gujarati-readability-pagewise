@@ -1,0 +1,33 @@
+{
+  "model_type": "Layoutxlm + XGBoost (Page-wise)",
+  "classification_type": "page_wise",
+  "feature_dimension": 768,
+  "training_time_seconds": 22.322881,
+  "best_params": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.1,
+    "max_depth": 3,
+    "n_estimators": 100,
+    "reg_alpha": 0,
+    "reg_lambda": 1,
+    "subsample": 1.0
+  },
+  "best_cv_score": 0.07501782607455577,
+  "train_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0
+  },
+  "test_metrics": {
+    "accuracy": 0.6065573770491803,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "roc_auc": 0.45739235170129483
+  },
+  "total_combinations_tested": 4,
+  "cv_folds": 3,
+  "extraction_date": "2025-08-07T13:13:38.491085"
+}

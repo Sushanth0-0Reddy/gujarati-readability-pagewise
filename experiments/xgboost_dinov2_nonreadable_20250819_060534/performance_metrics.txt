@@ -1,0 +1,37 @@
+📈 PAGE-WISE READABILITY CLASSIFICATION RESULTS
+======================================================================
+
+Training Summary:
+- Model Type: Dinov2 + XGBoost (Page-wise)
+- Classification Type: page_wise
+- Training Time: 17.1 seconds
+- Feature Dimension: 384 features
+- Training Samples: 501 pages
+- Test Samples: 128 pages
+- Hyperparameter Combinations Tested: 4
+- Cross-validation Folds: 3
+- Best CV F1 Score: 0.3045
+- Feature Extraction Date: 2025-08-19T11:27:26.072541
+
+Best Hyperparameters:
+- colsample_bytree: 0.8
+- learning_rate: 0.1
+- max_depth: 6
+- n_estimators: 200
+- reg_alpha: 0
+- reg_lambda: 1
+- subsample: 1.0
+
+Performance Metrics:
+==============================
+
+| Metric      | Train Set | Test Set  | Difference |
+|-------------|-----------|-----------|------------|
+| Accuracy    |   100.00% |    78.91% |   -21.09% |
+| Precision   |   100.00% |    78.12% |   -21.88% |
+| Recall      |   100.00% |    55.56% |   -44.44% |
+| F1          |   100.00% |    64.94% |   -35.06% |
+| Roc Auc     |   100.00% |    83.53% |   -16.47% |
+
+
+Generated: 2025-08-19 06:05:51

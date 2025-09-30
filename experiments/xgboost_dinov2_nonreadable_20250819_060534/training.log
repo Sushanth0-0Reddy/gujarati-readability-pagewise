@@ -1,0 +1,61 @@
+2025-08-19 06:05:34,491 - INFO - Loading dinov2 page-wise features from readability_training_pagewise/embeddings/dinov2_pagewise_embeddings_20250819_112657
+2025-08-19 06:05:34,494 - INFO - ✅ Page-wise features loaded successfully
+2025-08-19 06:05:34,494 - INFO - 📊 Train features: (501, 384)
+2025-08-19 06:05:34,494 - INFO - 📊 Test features: (128, 384)
+2025-08-19 06:05:34,494 - INFO - 📊 Feature dimension: 384
+2025-08-19 06:05:34,494 - INFO - 📊 Classification type: page_wise
+2025-08-19 06:05:34,494 - INFO - ✅ Feature-to-image mapping verified
+2025-08-19 06:05:34,494 - INFO - 🚀 Starting XGBoost training for PAGE-WISE readability classification...
+2025-08-19 06:05:34,494 - INFO - 🔧 FAST hyperparameter tuning for PAGE-WISE classification...
+2025-08-19 06:05:34,494 - INFO - 📊 Total parameter combinations: 4
+2025-08-19 06:05:34,494 - INFO - 🔄 Cross-validation folds: 3
+2025-08-19 06:05:34,494 - INFO - ⏱️  Estimated time: 1.2 - 3.2 minutes
+2025-08-19 06:05:34,495 - INFO - 🚀 Starting hyperparameter search...
+2025-08-19 06:05:51,618 - INFO - ✅ Hyperparameter search completed!
+2025-08-19 06:05:51,619 - INFO - ⏱️  Total training time: 0:00:17.123664
+2025-08-19 06:05:51,619 - INFO - 🏆 Best parameters found:
+2025-08-19 06:05:51,619 - INFO -    colsample_bytree: 0.8
+2025-08-19 06:05:51,619 - INFO -    learning_rate: 0.1
+2025-08-19 06:05:51,619 - INFO -    max_depth: 6
+2025-08-19 06:05:51,619 - INFO -    n_estimators: 200
+2025-08-19 06:05:51,619 - INFO -    reg_alpha: 0
+2025-08-19 06:05:51,619 - INFO -    reg_lambda: 1
+2025-08-19 06:05:51,619 - INFO -    subsample: 1.0
+2025-08-19 06:05:51,619 - INFO - 🏆 Best CV F1 score: 0.3045
+2025-08-19 06:05:51,634 - INFO - 🔝 Top parameter combinations:
+2025-08-19 06:05:51,635 - INFO -    1. F1: 0.3045 (±0.1733) - {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 200, 'reg_alpha': 0, 'reg_lambda': 1, 'subsample': 1.0}
+2025-08-19 06:05:51,635 - INFO -    2. F1: 0.3029 (±0.1714) - {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 100, 'reg_alpha': 0, 'reg_lambda': 1, 'subsample': 1.0}
+2025-08-19 06:05:51,635 - INFO -    3. F1: 0.2725 (±0.1496) - {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200, 'reg_alpha': 0, 'reg_lambda': 1, 'subsample': 1.0}
+2025-08-19 06:05:51,635 - INFO -    4. F1: 0.2660 (±0.1652) - {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'reg_alpha': 0, 'reg_lambda': 1, 'subsample': 1.0}
+2025-08-19 06:05:51,635 - INFO - 📊 Evaluating best model on training and test sets...
+2025-08-19 06:05:51,635 - INFO - 🔍 Evaluating on train set (501 samples)...
+2025-08-19 06:05:51,646 - INFO - 📊 TRAIN RESULTS (Non-readable as positive):
+2025-08-19 06:05:51,646 - INFO -    📈 Accuracy:  1.0000
+2025-08-19 06:05:51,646 - INFO -    📈 Precision (Non-readable): 1.0000
+2025-08-19 06:05:51,646 - INFO -    📈 Recall (Non-readable):    1.0000
+2025-08-19 06:05:51,646 - INFO -    📈 F1 Score (Non-readable):  1.0000
+2025-08-19 06:05:51,646 - INFO -    📈 ROC AUC:   1.0000
+2025-08-19 06:05:51,646 - INFO -    📊 True distribution: {np.float32(0.0): np.int64(165), np.float32(1.0): np.int64(336)}
+2025-08-19 06:05:51,646 - INFO -    📊 Pred distribution: {np.int64(0): np.int64(165), np.int64(1): np.int64(336)}
+2025-08-19 06:05:51,646 - INFO - 🔍 Evaluating on test set (128 samples)...
+2025-08-19 06:05:51,656 - INFO - 📊 TEST RESULTS (Non-readable as positive):
+2025-08-19 06:05:51,656 - INFO -    📈 Accuracy:  0.7891
+2025-08-19 06:05:51,656 - INFO -    📈 Precision (Non-readable): 0.7812
+2025-08-19 06:05:51,656 - INFO -    📈 Recall (Non-readable):    0.5556
+2025-08-19 06:05:51,656 - INFO -    📈 F1 Score (Non-readable):  0.6494
+2025-08-19 06:05:51,656 - INFO -    📈 ROC AUC:   0.8353
+2025-08-19 06:05:51,656 - INFO -    📊 True distribution: {np.float32(0.0): np.int64(45), np.float32(1.0): np.int64(83)}
+2025-08-19 06:05:51,656 - INFO -    📊 Pred distribution: {np.int64(0): np.int64(32), np.int64(1): np.int64(96)}
+2025-08-19 06:05:51,667 - INFO - 📄 Performance metrics saved to: readability_training_pagewise/experiments/xgboost_dinov2_nonreadable_20250819_060534/performance_metrics.txt
+2025-08-19 06:05:51,667 - INFO - 💾 Model saved to: readability_training_pagewise/experiments/xgboost_dinov2_nonreadable_20250819_060534/best_model.pkl
+2025-08-19 06:05:51,667 - INFO - 💾 Results saved to: readability_training_pagewise/experiments/xgboost_dinov2_nonreadable_20250819_060534/results.json
+2025-08-19 06:05:51,667 - INFO - 💾 CV results saved to: readability_training_pagewise/experiments/xgboost_dinov2_nonreadable_20250819_060534/cv_results.csv
+2025-08-19 06:05:51,667 - INFO - 📊 Creating visualization plots...
+2025-08-19 06:05:51,669 - INFO -    📈 Creating feature importance plot...
+2025-08-19 06:05:52,282 - INFO -    📈 Creating confusion matrix...
+2025-08-19 06:05:52,610 - INFO -    📈 Creating ROC curve...
+2025-08-19 06:05:52,952 - INFO -    📈 Creating hyperparameter search visualization...
+2025-08-19 06:05:53,029 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-08-19 06:05:53,030 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-08-19 06:05:53,781 - INFO - ✅ All 4 plots created successfully
+2025-08-19 06:05:53,781 - INFO - 📁 Plots saved to: readability_training_pagewise/experiments/xgboost_dinov2_nonreadable_20250819_060534/plots

@@ -1,0 +1,34 @@
+{
+  "classification_type": "page_wise",
+  "backbone_name": "efficientnet",
+  "feature_dimension": 1280,
+  "input_size": [
+    224,
+    224
+  ],
+  "train_samples": 476,
+  "test_samples": 122,
+  "extraction_date": "2025-08-06T18:14:17.379165",
+  "device": "cuda",
+  "train_feature_shape": [
+    476,
+    1280
+  ],
+  "test_feature_shape": [
+    122,
+    1280
+  ],
+  "train_class_distribution": {
+    "readable": 324,
+    "non_readable": 152
+  },
+  "test_class_distribution": {
+    "readable": 81,
+    "non_readable": 41
+  },
+  "mappings_saved": true,
+  "train_paths_file": "train_paths.json",
+  "test_paths_file": "test_paths.json",
+  "train_names_file": "train_names.json",
+  "test_names_file": "test_names.json"
+}

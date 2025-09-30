@@ -1,0 +1,33 @@
+PAGE-WISE READABILITY CLASSIFICATION - XGBoost with Oversampling
+======================================================================
+
+Backbone Model: efficientnet
+Sampling Strategy: smote
+Training Time: 0:02:01.633449
+Best CV F1 Score: 0.5322
+
+BEST PARAMETERS:
+--------------------
+colsample_bytree: 0.8
+learning_rate: 0.2
+max_depth: 6
+n_estimators: 100
+reg_alpha: 0
+reg_lambda: 1
+subsample: 1.0
+
+TRAINING SET PERFORMANCE (Original Data):
+----------------------------------------
+ACCURACY: 1.0000
+PRECISION: 1.0000
+RECALL: 1.0000
+F1: 1.0000
+ROC_AUC: 1.0000
+
+TEST SET PERFORMANCE:
+--------------------
+ACCURACY: 0.7623
+PRECISION: 0.7143
+RECALL: 0.4878
+F1: 0.5797
+ROC_AUC: 0.7859

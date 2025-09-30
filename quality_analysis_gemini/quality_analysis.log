@@ -1,0 +1,388 @@
+🚀 Document Quality Analyzer
+============================================================
+🖼️  Input directory: /root/sarvam/akshar-experiments-pipeline/akshar-ocr-experiments/DQA_data/sampled_images
+📤 Output directory: /root/sarvam/akshar-experiments-pipeline/akshar-ocr-experiments/DQA_data/dqa_outputs
+🤖 Model: gemini-2.5-pro
+🎛️  Rate limiting: 32 concurrent requests, 1s delay
+👥 Workers: 32 parallel workers
+
+📁 Output directory: /root/sarvam/akshar-experiments-pipeline/akshar-ocr-experiments/DQA_data/dqa_outputs
+🎯 Found 1159 images to process
+📋 Each image will generate 5 random crops (40% of original)
+📄 Total expected outputs: 1159 JSON files (1 per image with 5 crops each)
+Processing images:   0%|          | 0/1159 [00:00<?, ?it/s]Using credentials file: vision-projects-463307-service-account.json
+🔍 [09 Rudhiprayog Kosh_080] Processing image...
+📏 [09 Rudhiprayog Kosh_080] Image size: (1704, 2628)
+✂️  [09 Rudhiprayog Kosh_080] Crop 1: (681, 1051) at [527, 839]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [1 GULAB NATAK_026] Processing image...
+📏 [1 GULAB NATAK_026] Image size: (2480, 3509)
+✂️  [1 GULAB NATAK_026] Crop 1: (992, 1403) at [604, 2048]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Vyajno_Varas_213] Processing image...
+📏 [Vyajno_Varas_213] Image size: (1488, 2125)
+✂️  [Vyajno_Varas_213] Crop 1: (595, 850) at [369, 1224]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Vyajno_Varas_297] Processing image...
+📏 [Vyajno_Varas_297] Image size: (1500, 2196)
+✂️  [Vyajno_Varas_297] Crop 1: (600, 878) at [852, 911]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [08 HINDUSTANMA MUSAFARI_013] Processing image...
+📏 [08 HINDUSTANMA MUSAFARI_013] Image size: (1472, 2325)
+✂️  [08 HINDUSTANMA MUSAFARI_013] Crop 1: (588, 930) at [757, 555]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [06 Harishchandra Natak_097] Processing image...
+📏 [06 Harishchandra Natak_097] Image size: (1285, 2216)
+✂️  [06 Harishchandra Natak_097] Crop 1: (514, 886) at [11, 523]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [06 Harishchandra Natak_071] Processing image...
+📏 [06 Harishchandra Natak_071] Image size: (1308, 2234)
+✂️  [06 Harishchandra Natak_071] Crop 1: (523, 893) at [77, 13]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [1 GULAB NATAK_060] Processing image...
+📏 [1 GULAB NATAK_060] Image size: (2480, 3509)
+✂️  [1 GULAB NATAK_060] Crop 1: (992, 1403) at [409, 141]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Gujarat Ehtihasic Prasang_386] Processing image...
+📏 [Gujarat Ehtihasic Prasang_386] Image size: (1217, 1956)
+✂️  [Gujarat Ehtihasic Prasang_386] Crop 1: (486, 782) at [161, 955]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Mukaam_067] Processing image...
+📏 [Mukaam_067] Image size: (2481, 3508)
+✂️  [Mukaam_067] Crop 1: (992, 1403) at [463, 1021]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Sona_na_015] Processing image...
+📏 [Sona_na_015] Image size: (3380, 2524)
+✂️  [Sona_na_015] Crop 1: (1352, 1009) at [302, 1019]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [09 Rudhiprayog Kosh_068] Processing image...
+📏 [09 Rudhiprayog Kosh_068] Image size: (1721, 2592)
+✂️  [09 Rudhiprayog Kosh_068] Crop 1: (688, 1036) at [334, 400]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [08 HINDUSTANMA MUSAFARI_205] Processing image...
+📏 [08 HINDUSTANMA MUSAFARI_205] Image size: (1480, 2466)
+✂️  [08 HINDUSTANMA MUSAFARI_205] Crop 1: (592, 986) at [727, 1028]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Daya Ram_067] Processing image...
+📏 [Daya Ram_067] Image size: (1428, 2323)
+✂️  [Daya Ram_067] Crop 1: (571, 929) at [208, 1167]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [09 Rudhiprayog Kosh_026] Processing image...
+📏 [09 Rudhiprayog Kosh_026] Image size: (1692, 2670)
+✂️  [09 Rudhiprayog Kosh_026] Crop 1: (676, 1068) at [487, 472]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Ane_Bhaumitika_027] Processing image...
+📏 [Ane_Bhaumitika_027] Image size: (1530, 2361)
+✂️  [Ane_Bhaumitika_027] Crop 1: (612, 944) at [849, 821]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [2015.305581.Misarno-Mukti_152] Processing image...
+📏 [2015.305581.Misarno-Mukti_152] Image size: (681, 1043)
+✂️  [2015.305581.Misarno-Mukti_152] Crop 1: (272, 417) at [249, 559]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Sathina_Sahityanu_Digdarshan_326] Processing image...
+📏 [Sathina_Sahityanu_Digdarshan_326] Image size: (1604, 2181)
+✂️  [Sathina_Sahityanu_Digdarshan_326] Crop 1: (641, 872) at [98, 654]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [08 HINDUSTANMA MUSAFARI_075] Processing image...
+📏 [08 HINDUSTANMA MUSAFARI_075] Image size: (1494, 2358)
+✂️  [08 HINDUSTANMA MUSAFARI_075] Crop 1: (597, 943) at [896, 302]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Himalay No Pravas_1962_070] Processing image...
+📏 [Himalay No Pravas_1962_070] Image size: (1584, 2213)
+✂️  [Himalay No Pravas_1962_070] Crop 1: (633, 885) at [707, 447]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Drashyavali_032] Processing image...
+📏 [Drashyavali_032] Image size: (1375, 2072)
+✂️  [Drashyavali_032] Crop 1: (550, 828) at [540, 824]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Sathina_Sahityanu_Digdarshan_176] Processing image...
+📏 [Sathina_Sahityanu_Digdarshan_176] Image size: (1567, 2151)
+✂️  [Sathina_Sahityanu_Digdarshan_176] Crop 1: (626, 860) at [263, 182]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [1 GULAB NATAK_021] Processing image...
+📏 [1 GULAB NATAK_021] Image size: (2480, 3509)
+✂️  [1 GULAB NATAK_021] Crop 1: (992, 1403) at [912, 692]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Vibhavana_250] Processing image...
+📏 [Vibhavana_250] Image size: (2292, 3113)
+✂️  [Vibhavana_250] Crop 1: (916, 1245) at [129, 247]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [09 Rudhiprayog Kosh_103] Processing image...
+📏 [09 Rudhiprayog Kosh_103] Image size: (1773, 2652)
+✂️  [09 Rudhiprayog Kosh_103] Crop 1: (709, 1060) at [89, 440]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Ane_Bhaumitika_062] Processing image...
+📏 [Ane_Bhaumitika_062] Image size: (1391, 2376)
+✂️  [Ane_Bhaumitika_062] Crop 1: (556, 950) at [539, 1389]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [08 HINDUSTANMA MUSAFARI_066] Processing image...
+📏 [08 HINDUSTANMA MUSAFARI_066] Image size: (1527, 2473)
+✂️  [08 HINDUSTANMA MUSAFARI_066] Crop 1: (610, 989) at [889, 1355]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Vyajno_Varas_217] Processing image...
+📏 [Vyajno_Varas_217] Image size: (1480, 2125)
+✂️  [Vyajno_Varas_217] Crop 1: (592, 850) at [684, 1228]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Daya Ram_069] Processing image...
+📏 [Daya Ram_069] Image size: (1302, 2268)
+✂️  [Daya Ram_069] Crop 1: (520, 907) at [656, 126]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Himalay No Pravas_1962_034] Processing image...
+📏 [Himalay No Pravas_1962_034] Image size: (1584, 2213)
+✂️  [Himalay No Pravas_1962_034] Crop 1: (633, 885) at [371, 705]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [06 Harishchandra Natak_067] Processing image...
+📏 [06 Harishchandra Natak_067] Image size: (1270, 2228)
+✂️  [06 Harishchandra Natak_067] Crop 1: (508, 891) at [646, 655]
+Using credentials file: vision-projects-463307-service-account.json
+🔍 [Sathina_Sahityanu_Digdarshan_247] Processing image...
+📏 [Sathina_Sahityanu_Digdarshan_247] Image size: (1577, 2135)
+✂️  [Sathina_Sahityanu_Digdarshan_247] Crop 1: (630, 854) at [262, 180]
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+    ❌ Quality analysis error: 1 validation error for GenerateContentConfig
+thinking_budget
+  Extra inputs are not permitted [type=extra_forbidden, input_value=128, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden

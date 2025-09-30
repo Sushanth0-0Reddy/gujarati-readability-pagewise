@@ -1,0 +1,34 @@
+{
+  "classification_type": "page_wise",
+  "backbone_name": "layoutxlm",
+  "feature_dimension": 768,
+  "input_size": [
+    224,
+    224
+  ],
+  "train_samples": 480,
+  "test_samples": 122,
+  "extraction_date": "2025-08-07T13:13:38.491085",
+  "device": "cuda",
+  "train_feature_shape": [
+    480,
+    768
+  ],
+  "test_feature_shape": [
+    122,
+    768
+  ],
+  "train_class_distribution": {
+    "readable": 327,
+    "non_readable": 153
+  },
+  "test_class_distribution": {
+    "readable": 81,
+    "non_readable": 41
+  },
+  "mappings_saved": true,
+  "train_paths_file": "train_paths.json",
+  "test_paths_file": "test_paths.json",
+  "train_names_file": "train_names.json",
+  "test_names_file": "test_names.json"
+}

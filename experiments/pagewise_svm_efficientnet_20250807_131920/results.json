@@ -1,0 +1,55 @@
+{
+  "model_type": "SVM",
+  "backbone_name": "efficientnet",
+  "feature_dimension": 1280,
+  "training_date": "2025-08-07T13:19:30.182995",
+  "train_samples": 476,
+  "test_samples": 122,
+  "best_hyperparameters": {
+    "C": 1.0,
+    "class_weight": null,
+    "gamma": "scale",
+    "kernel": "rbf"
+  },
+  "cv_folds": 3,
+  "hyperparameter_combinations": 16,
+  "feature_scaling": "StandardScaler",
+  "results": {
+    "train_metrics": {
+      "accuracy": 0.8109243697478992,
+      "precision": 0.7896039603960396,
+      "recall": 0.9845679012345679,
+      "f1_score": 0.8763736263736264,
+      "roc_auc": 0.9400787849252761
+    },
+    "test_metrics": {
+      "accuracy": 0.7540983606557377,
+      "precision": 0.7339449541284404,
+      "recall": 0.9876543209876543,
+      "f1_score": 0.8421052631578947,
+      "roc_auc": 0.7371273712737126
+    },
+    "confusion_matrix": {
+      "train": [
+        [
+          67,
+          85
+        ],
+        [
+          5,
+          319
+        ]
+      ],
+      "test": [
+        [
+          12,
+          29
+        ],
+        [
+          1,
+          80
+        ]
+      ]
+    }
+  }
+}

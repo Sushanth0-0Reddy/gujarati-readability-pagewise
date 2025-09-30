@@ -1,0 +1,72 @@
+2025-08-08 09:35:50,406 - INFO - 🚀 Initializing PAGE-WISE XGBoost Trainer with Oversampling
+2025-08-08 09:35:50,407 - INFO - 📂 Embeddings directory: readability_training_pagewise/embeddings
+2025-08-08 09:35:50,408 - INFO - 📂 Experiment directory: readability_training_pagewise/experiments/xgboost_efficientnet_smote_nonreadable_20250808_093550
+2025-08-08 09:35:50,409 - INFO - 🧠 Backbone model: efficientnet
+2025-08-08 09:35:50,409 - INFO - ⚖️ Sampling strategy: smote
+2025-08-08 09:35:50,410 - INFO - 📚 Loading page-wise features and labels...
+2025-08-08 09:35:50,412 - INFO - 📂 Using embeddings from: readability_training_pagewise/embeddings/efficientnet_pagewise_embeddings_20250806_181332
+2025-08-08 09:35:50,441 - INFO - 📊 Train features: (476, 1280)
+2025-08-08 09:35:50,442 - INFO - 📊 Train labels: (476,)
+2025-08-08 09:35:50,444 - INFO - 📊 Test features: (122, 1280)
+2025-08-08 09:35:50,446 - INFO - 📊 Test labels: (122,)
+2025-08-08 09:35:50,446 - INFO - 📊 Feature dimension: 1280
+2025-08-08 09:35:50,448 - INFO - 📊 Classification type: page_wise
+2025-08-08 09:35:50,449 - INFO - ✅ Feature-to-image mapping verified
+2025-08-08 09:35:50,450 - INFO - 📊 Original train class distribution: {np.float32(0.0): np.int64(152), np.float32(1.0): np.int64(324)}
+2025-08-08 09:35:50,450 - INFO - 📊 Test class distribution: {np.float32(0.0): np.int64(41), np.float32(1.0): np.int64(81)}
+2025-08-08 09:35:50,450 - INFO - 🚀 Starting XGBoost training for PAGE-WISE readability classification...
+2025-08-08 09:35:50,450 - INFO - ⚖️ Applying oversampling technique: smote
+2025-08-08 09:35:51,357 - INFO - 📊 Resampled train class distribution: {np.float32(0.0): np.int64(324), np.float32(1.0): np.int64(324)}
+2025-08-08 09:35:51,359 - INFO - 📊 Original samples: 476 → Resampled samples: 648
+2025-08-08 09:35:51,360 - INFO - 🔧 MEDIUM hyperparameter tuning for PAGE-WISE classification...
+2025-08-08 09:35:51,367 - INFO - 📊 Total parameter combinations: 16
+2025-08-08 09:35:51,370 - INFO - 🔄 Cross-validation folds: 3
+2025-08-08 09:35:51,371 - INFO - ⏱️  Estimated time: 0.4 - 1.2 minutes
+2025-08-08 09:35:51,371 - INFO - 🚀 Starting hyperparameter search...
+2025-08-08 09:37:53,009 - INFO - ✅ Hyperparameter search completed!
+2025-08-08 09:37:53,014 - INFO - ⏱️  Total training time: 0:02:01.633449
+2025-08-08 09:37:53,014 - INFO - 🏆 Best parameters found:
+2025-08-08 09:37:53,014 - INFO -    colsample_bytree: 0.8
+2025-08-08 09:37:53,014 - INFO -    learning_rate: 0.2
+2025-08-08 09:37:53,014 - INFO -    max_depth: 6
+2025-08-08 09:37:53,014 - INFO -    n_estimators: 100
+2025-08-08 09:37:53,014 - INFO -    reg_alpha: 0
+2025-08-08 09:37:53,014 - INFO -    reg_lambda: 1
+2025-08-08 09:37:53,014 - INFO -    subsample: 1.0
+2025-08-08 09:37:53,014 - INFO - 🏆 Best CV F1 score: 0.5322
+2025-08-08 09:37:53,196 - INFO - 🔝 Top parameter combinations:
+2025-08-08 09:37:53,200 - INFO -    1. F1: 0.5322 (±0.0991) - {'colsample_bytree': 0.8, 'learning_rate': 0.2, 'max_depth': 6, 'n_estimators': 100, 'reg_alpha': 0, 'reg_lambda': 1, 'subsample': 1.0}
+2025-08-08 09:37:53,200 - INFO -    2. F1: 0.5292 (±0.0890) - {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 100, 'reg_alpha': 0, 'reg_lambda': 1, 'subsample': 1.0}
+2025-08-08 09:37:53,200 - INFO -    3. F1: 0.5222 (±0.0859) - {'colsample_bytree': 0.8, 'learning_rate': 0.2, 'max_depth': 6, 'n_estimators': 200, 'reg_alpha': 0, 'reg_lambda': 1, 'subsample': 1.0}
+2025-08-08 09:37:53,200 - INFO -    4. F1: 0.5139 (±0.0890) - {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 6, 'n_estimators': 100, 'reg_alpha': 0, 'reg_lambda': 1, 'subsample': 0.8}
+2025-08-08 09:37:53,201 - INFO -    5. F1: 0.5080 (±0.1124) - {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'reg_alpha': 0, 'reg_lambda': 1, 'subsample': 0.8}
+2025-08-08 09:37:53,202 - INFO - 📊 Evaluating best model on training and test sets...
+2025-08-08 09:37:53,202 - INFO - 🔍 Evaluating on original train set (476 samples)...
+2025-08-08 09:37:53,235 - INFO - 📊 TRAIN RESULTS:
+2025-08-08 09:37:53,235 - INFO -    📈 Accuracy:  1.0000
+2025-08-08 09:37:53,235 - INFO -    📈 Precision: 1.0000
+2025-08-08 09:37:53,235 - INFO -    📈 Recall:    1.0000
+2025-08-08 09:37:53,235 - INFO -    📈 F1 Score:  1.0000
+2025-08-08 09:37:53,235 - INFO -    📈 ROC AUC:   1.0000
+2025-08-08 09:37:53,236 - INFO -    📊 True distribution: {np.float32(0.0): np.int64(152), np.float32(1.0): np.int64(324)}
+2025-08-08 09:37:53,236 - INFO -    📊 Pred distribution: {np.int64(0): np.int64(152), np.int64(1): np.int64(324)}
+2025-08-08 09:37:53,236 - INFO - 🔍 Evaluating on test set (122 samples)...
+2025-08-08 09:37:53,245 - INFO - 📊 TEST RESULTS:
+2025-08-08 09:37:53,245 - INFO -    📈 Accuracy:  0.7623
+2025-08-08 09:37:53,245 - INFO -    📈 Precision: 0.7143
+2025-08-08 09:37:53,245 - INFO -    📈 Recall:    0.4878
+2025-08-08 09:37:53,245 - INFO -    📈 F1 Score:  0.5797
+2025-08-08 09:37:53,245 - INFO -    📈 ROC AUC:   0.7859
+2025-08-08 09:37:53,245 - INFO -    📊 True distribution: {np.float32(0.0): np.int64(41), np.float32(1.0): np.int64(81)}
+2025-08-08 09:37:53,246 - INFO -    📊 Pred distribution: {np.int64(0): np.int64(28), np.int64(1): np.int64(94)}
+2025-08-08 09:37:53,253 - INFO - 📄 Performance metrics saved to: readability_training_pagewise/experiments/xgboost_efficientnet_smote_nonreadable_20250808_093550/performance_metrics.txt
+2025-08-08 09:37:53,269 - INFO - 💾 Model saved to: readability_training_pagewise/experiments/xgboost_efficientnet_smote_nonreadable_20250808_093550/best_model.pkl
+2025-08-08 09:37:53,272 - INFO - 💾 Results saved to: readability_training_pagewise/experiments/xgboost_efficientnet_smote_nonreadable_20250808_093550/results.json
+2025-08-08 09:37:53,353 - INFO - 💾 CV results saved to: readability_training_pagewise/experiments/xgboost_efficientnet_smote_nonreadable_20250808_093550/cv_results.csv
+2025-08-08 09:37:53,354 - INFO - 📊 Creating visualization plots...
+2025-08-08 09:37:53,386 - INFO -    📈 Creating feature importance plot...
+2025-08-08 09:37:54,524 - INFO -    📈 Creating confusion matrix...
+2025-08-08 09:37:54,909 - INFO -    📈 Creating ROC curve...
+2025-08-08 09:37:55,262 - INFO -    📈 Creating hyperparameter search visualization...
+2025-08-08 09:37:57,235 - INFO - ✅ All 4 plots created successfully
+2025-08-08 09:37:57,235 - INFO - 📁 Plots saved to: readability_training_pagewise/experiments/xgboost_efficientnet_smote_nonreadable_20250808_093550/plots

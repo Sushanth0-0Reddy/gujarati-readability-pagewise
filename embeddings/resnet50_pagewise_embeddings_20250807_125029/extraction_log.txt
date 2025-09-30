@@ -1,0 +1,2 @@
+2025-08-07 12:50:29,373 - INFO - Starting resnet50 page-wise feature extraction
+2025-08-07 12:51:17,211 - INFO - resnet50 page-wise feature extraction completed successfully

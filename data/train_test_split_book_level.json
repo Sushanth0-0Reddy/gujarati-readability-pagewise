@@ -1,0 +1,87 @@
+{
+  "train_test_split": {
+    "creation_date": "2025-08-05 15:22:23",
+    "dataset_source": "Quality.xlsx",
+    "split_method": "book_level_stratified",
+    "split_type": "book_level",
+    "random_seed": 42,
+    "test_size_ratio": 0.3
+  },
+  "dataset_overview": {
+    "total_books": 35,
+    "total_images": 1158,
+    "readable_books": 19,
+    "non_readable_books": 16,
+    "readable_images": 538,
+    "non_readable_images": 620
+  },
+  "split_results": {
+    "training": {
+      "books": 24,
+      "readable_books": 13,
+      "non_readable_books": 11,
+      "total_images": 771,
+      "readable_images": 346,
+      "non_readable_images": 425,
+      "percentage_of_total_images": 66.6
+    },
+    "testing": {
+      "books": 11,
+      "readable_books": 6,
+      "non_readable_books": 5,
+      "total_images": 387,
+      "readable_images": 192,
+      "non_readable_images": 195,
+      "percentage_of_total_images": 33.4
+    }
+  },
+  "class_balance": {
+    "training_balance_ratio": 1.23,
+    "testing_balance_ratio": 1.02,
+    "overall_balance_status": "acceptable"
+  },
+  "data_leakage_prevention": {
+    "method": "book_level_splitting",
+    "description": "All images from the same book are kept in the same split (train or test)",
+    "no_book_overlap": true
+  },
+  "training_book_list": [
+    "Geeta Manthan",
+    "Scan Collection 20250409151711",
+    "Sona na Vruksho Manilal H Patel",
+    "Takhuni Varta",
+    "Drashyavali",
+    "Sahajanand Swami",
+    "Vibhavana",
+    "Gujarat Ehtihasic Prasang",
+    "Scan Collection 20221219142107",
+    "Kavyamangala",
+    "Scan Collection 20221130112342",
+    "Sona na",
+    "Himalay No Pravas 1962",
+    "Scan Collection 20221226172345",
+    "Gule Polaad",
+    "Mukaam",
+    "1 GULAB NATAK",
+    "Vyajno Varas",
+    "ANVESHNA",
+    "Gata Zarna Gani",
+    "Sathina Sahityanu Digdarshan",
+    "Statue",
+    "2015.305581.Misarno-Mukti",
+    "Daya Ram"
+  ],
+  "testing_book_list": [
+    "06 Harishchandra Natak",
+    "Himalay No Pravas 1941",
+    "Scan Collection 20221219133422",
+    "Ane Bhaumitika",
+    "Pritam",
+    "Sundaramni",
+    "08 HINDUSTANMA MUSAFARI",
+    "09 Rudhiprayog Kosh",
+    "Chakhadie Chadhi",
+    "Thakkarbapa",
+    "Swarupsannidhan"
+  ]
+}

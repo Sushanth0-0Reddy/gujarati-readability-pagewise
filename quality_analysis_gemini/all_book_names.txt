@@ -1,0 +1,87 @@
+EXHAUSTIVE LIST OF ALL BOOK NAMES
+============================================================
+Total Unique Books: 38
+Total Files: 1162
+Generated: /root/sarvam/akshar-experiments-pipeline/akshar-ocr-experiments/extract_book_names.py
+
+ALPHABETICAL LIST:
+------------------------------
+  1. 06 Harishchandra Natak
+  2. 08 HINDUSTANMA MUSAFARI
+  3. 09 Rudhiprayog Kosh
+  4. 1 GULAB NATAK
+  5. 2015.305581.Misarno-Mukti
+  6. ANVESHNA
+  7. Ane Bhaumitika
+  8. Chakhadie Chadhi
+  9. Daya Ram
+ 10. Drashyavali
+ 11. Gata Zarna Gani
+ 12. Geeta Manthan
+ 13. Gujarat Ehtihasic Prasang
+ 14. Gule Polaad
+ 15. Himalay No Pravas 1941
+ 16. Himalay No Pravas 1962
+ 17. Kavyamangala
+ 18. Mukaam
+ 19. Pritam
+ 20. Sahajanand Swami
+ 21. Sathina Sahityanu Digdarshan
+ 22. Scan Collection 20221130
+ 23. Scan Collection 20221219
+ 24. Scan Collection 20221226
+ 25. Scan Collection 20250409
+ 26. Sona na
+ 27. Sona na Vruksho Manilal H Patel
+ 28. Statue
+ 29. Sundaramni
+ 30. Swarupsannidhan
+ 31. Takhuni Varta
+ 32. Thakkarbapa
+ 33. Utility File (files)
+ 34. Utility File (image_checker)
+ 35. Utility File (title4)
+ 36. Utility File (verifier)
+ 37. Vibhavana
+ 38. Vyajno Varas
+
+DETAILED BREAKDOWN (by file count):
+----------------------------------------
+  1. 09 Rudhiprayog Kosh                                ( 60 files)
+  2. 1 GULAB NATAK                                      ( 60 files)
+  3. 08 HINDUSTANMA MUSAFARI                            ( 60 files)
+  4. 06 Harishchandra Natak                             ( 60 files)
+  5. Daya Ram                                           ( 60 files)
+  6. Gujarat Ehtihasic Prasang                          ( 50 files)
+  7. Scan Collection 20221219                           ( 50 files)
+  8. 2015.305581.Misarno-Mukti                          ( 50 files)
+  9. Sathina Sahityanu Digdarshan                       ( 50 files)
+ 10. Gule Polaad                                        ( 41 files)
+ 11. Sona na Vruksho Manilal H Patel                    ( 36 files)
+ 12. Vyajno Varas                                       ( 30 files)
+ 13. Scan Collection 20221226                           ( 30 files)
+ 14. Scan Collection 20250409                           ( 30 files)
+ 15. Himalay No Pravas 1962                             ( 30 files)
+ 16. Scan Collection 20221130                           ( 30 files)
+ 17. Gata Zarna Gani                                    ( 30 files)
+ 18. ANVESHNA                                           ( 30 files)
+ 19. Himalay No Pravas 1941                             ( 30 files)
+ 20. Chakhadie Chadhi                                   ( 30 files)
+ 21. Sahajanand Swami                                   ( 29 files)
+ 22. Thakkarbapa                                        ( 24 files)
+ 23. Mukaam                                             ( 22 files)
+ 24. Sona na                                            ( 22 files)
+ 25. Ane Bhaumitika                                     ( 22 files)
+ 26. Vibhavana                                          ( 22 files)
+ 27. Statue                                             ( 22 files)
+ 28. Geeta Manthan                                      ( 22 files)
+ 29. Drashyavali                                        ( 21 files)
+ 30. Takhuni Varta                                      ( 21 files)
+ 31. Sundaramni                                         ( 21 files)
+ 32. Pritam                                             ( 21 files)
+ 33. Kavyamangala                                       ( 21 files)
+ 34. Swarupsannidhan                                    ( 21 files)
+ 35. Utility File (image_checker)                       (  1 files)
+ 36. Utility File (title4)                              (  1 files)
+ 37. Utility File (files)                               (  1 files)
+ 38. Utility File (verifier)                            (  1 files)
