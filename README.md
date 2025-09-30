@@ -65,7 +65,8 @@ pip install ultralytics       # For YOLOv8
 
 1. **Extract Features**:
 ```bash
-cd /root/sarvam/akshar-experiments-pipeline/gujarati-readability-classification
+cd /root/sarvam/akshar-experiments-pipeliain
+gujarati-readability-classification
 python readability_training_pagewise/scripts/extract_pagewise_features.py --backbone dinov2
 ```
 
@@ -327,41 +328,6 @@ for experiment_dir in experiments/xgboost_*; do
 done
 ```
 
-## 🐛 **Troubleshooting**
-
-### **Common Issues**
-
-1. **CUDA Out of Memory**:
-   ```bash
-   # Reduce batch size
-   # Edit batch_size in scripts (default: 16 → 8 or 4)
-   ```
-
-2. **Missing Dependencies**:
-   ```bash
-   pip install -r requirements.txt  # If available
-   # Or install individually as needed
-   ```
-
-3. **Model Download Issues**:
-   ```bash
-   # For transformers models, ensure internet connection
-   # For torch hub models, clear cache if needed
-   rm -rf ~/.cache/torch/hub/
-   ```
-
-4. **Data Path Issues**:
-   ```bash
-   # Ensure Quality.xlsx exists and paths are correct
-   # Check image file accessibility
-   ```
-
-### **Performance Optimization**
-
-1. **GPU Usage**: Ensure CUDA is available and properly configured
-2. **Memory Management**: Monitor RAM usage during feature extraction
-3. **Parallel Processing**: Adjust `num_workers` in DataLoader
-4. **Batch Size**: Balance between speed and memory usage
 
 ## 🤖 **VLM as Judge - Quality Analysis**
 
